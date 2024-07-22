@@ -6,7 +6,7 @@ const WhereToBuy = () => {
   return(
     <div className="container my-36">
       <div className="grid grid-cols1 sm:grid-cols-3 gap-8 place-content-center">
-        {/* From section */}
+        {/* Sección de formularios */}
         <div className="space-y-8" >
           <motion.h1
           initial={{ opacity: 0, y: -100 }}

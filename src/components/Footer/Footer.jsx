@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="bg-gradient-to-r from-primary to-primaryDark pt-12 pb-8 text-white">
             <div className="container">
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-                    {/* Company details section */}
+                    {/* Sección de detalles de la empresa */}
                     <motion.div
                     initial={{ opacity:0, y: 100 }}
                     whileInView={{ opacity:1, y: 0 }}
@@ -39,7 +39,7 @@ const Footer = () => {
                             </p>
                         </div>
                     </motion.div>
-                    {/* Footer Link section */}
+                    {/* Sección de enlace de pie de página */}
                     <motion.div
                     initial={{ opacity:0, y: 100 }}
                     whileInView={{ opacity:1, y: 0 }}
@@ -51,7 +51,7 @@ const Footer = () => {
                     className="space-y-6">
                         <h1 className="text-3xl font-bold">Quick Links</h1>
                             <div className="grid grid-cols-2 gap-3">
-                                {/* first column section */}
+                                {/* sección primera columna */}
                                 <div>
                                     <ul className="space-y-2">
                                         <li>Home</li>
@@ -60,7 +60,7 @@ const Footer = () => {
                                         <li>Privacy Policy</li>
                                     </ul>
                                 </div>
-                                {/* second column section */}
+                                {/* sección segunda columna */}
                                 <div>
                                 <ul className="space-y-2">
                                         <li>Home</li>
@@ -71,7 +71,7 @@ const Footer = () => {
                                 </div>
                             </div>
                     </motion.div>
-                    {/* Scocial Link section */}
+                    {/* Sección de enlaces sociales */}
                     <motion.div
                     initial={{ opacity:0, y: 100 }}
                     whileInView={{ opacity:1, y: 0 }}
@@ -94,7 +94,7 @@ const Footer = () => {
                         </div>
                     </motion.div>
                 </div>
-                    {/* Copyright section */}
+                    {/* Sección de derechos de autor */}
                     <p className="text-white text-center mt-8 pt-8 border-t-2">
                         Copyright &copy; 2024 Company Chilly-Code. All rights reserved.
                     </p>

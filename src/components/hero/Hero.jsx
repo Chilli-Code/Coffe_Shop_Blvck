@@ -19,11 +19,11 @@ const Hero = () =>{
     <main style={bgImage}>
         <section className="relative min-h-[750px] w-full">
             <div className='container'>
-                {/* Navbar section */}
+                {/* Sección de la barra de navegación */}
                 <Navbar sidebar={sidebar} setSidebar={setSidebar} />
                 {/* Hero section */}
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center min-h-[850px]'>
-                {/* text content section */}
+                {/* sección de contenido de texto */}
                 <div className="text-lightOrange mt-[100px] md:mt-0 p-4 space-y-28">
                     <motion.h1
                     initial={{ opacity: 0, y:-100}}
@@ -53,7 +53,7 @@ const Hero = () =>{
                         <div className="absolute -top-6 -left-10 w-[250px] h-[190px] bg-gray-700/25"></div>
                     </motion.div>
                 </div>
-                {/* hero image  section */}
+                {/* sección de imagen */}
                 <div className="relative">
                     <motion.img
                     initial={{ opacity: 0, scale: 0}}
@@ -69,7 +69,7 @@ const Hero = () =>{
                     alt=""
                     className="relative z-40 h-[400px] md:h-[700px] img-shadow"
                     />
-                {/* Orange Circle img */}
+                {/* Círculo naranja img */}
                     <motion.div
                     initial={{ opacity: 0, y: 100}}
                     animate={{ opacity: 1, y:0}}
@@ -80,7 +80,7 @@ const Hero = () =>{
                         delay: 0.8,
                     }}
                     className="h-[180px] w-[180px] absolute top-24 -right-16 border-primary border-[20px] rounded-full z-10"></motion.div>
-                {/* big text section*/}
+                {/* sección de texto grande*/}
                     <motion.div
                     initial={{ opacity: 0, x: -100}}
                     animate={{ opacity: 1, x:0}}
@@ -96,7 +96,7 @@ const Hero = () =>{
                     </h1>
                     </motion.div>
                 </div>
-                {/* third div section*/}
+                {/* tercera sección div */}
                 <div className="hidden lg:block">
                 <motion.div
                 initial={{ opacity: 0, y: 100}}
@@ -122,7 +122,7 @@ const Hero = () =>{
                 </div>
             </div>
 
-            {/* slidebar Menu section */}
+            {/* slidebar Sección de menú */}
             {
                 sidebar && (
                     <motion.div
@@ -131,9 +131,9 @@ const Hero = () =>{
                     className="absolute top-0 right-0 w-[140px] h-full bg-gradient-to-b from-primary/80 to-primaryDark/80 backdrop-blur-sm z-50">
                     <div className="w-full h-full flex justify-center items-center">
                     <div className="flex flex-col items-center gap-6 text-white">
-                        {/* Line */}
+                        {/* Línea */}
                         <div className="w-[1px] h-[70px] bg-white "></div>
-                        {/* Social icons */}
+                        {/* Iconos sociales */}
                         <div className="inline-block p-2 rounded-full cursor-pointer border border-white">
                             <FaFacebookF className="text-2xl"/>
                         </div>

@@ -12,7 +12,7 @@ const Navbar = ({ sidebar, setSidebar }) => {
         <nav className="absolute top-0 left-0 w-full pt-10 text-white z-[9999]">
             <div className="container">
                 <div className="flex justify-between items-center">
-                    {/* Logo Section */}
+                    {/* Sección Logo */}
                     <motion.h1
                         initial={{ opacity: 0, y: 100 }}
                         animate={{ opacity: 1, y: 0 }}

@@ -52,7 +52,7 @@ const containerVariants = {
 const Services = () => {
     return (
         <div className="container my-16 space-y-4">
-            {/* Header Section */}
+            {/* Sección de cabecera */}
             <div className="text-center max-w-lg mx-auto space-y-2">
                 <motion.h1
                     initial={{ opacity: 0, y: 100 }}
@@ -81,7 +81,7 @@ const Services = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, quis. Odio qui quam sapiente similique sit ut, voluptates at libero rem quia consequuntur ad exercitationem!
                 </motion.p>
             </div>
-            {/* Card Section */}
+            {/* Sección de tarjetas */}
             <motion.div
                 variants={containerVariants}
                 initial="hidden"
